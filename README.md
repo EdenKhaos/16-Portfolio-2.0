@@ -14,17 +14,17 @@ If you are opting out of career services, this is *still a required assignment*.
 * Submit an updated LinkedIn profile (see link below)
 
 ## Links:
-```
+
 Live Site: 
-          https://edenkhaos.github.io/16-Portfolio2/
+     https://edenkhaos.github.io/16-Portfolio2/
    
 Code Repo: 
-          https://github.com/EdenKhaos/16-Portfolio2
+     https://github.com/EdenKhaos/16-Portfolio2
   
 README:
-          https://github.com/EdenKhaos/16-Portfolio2/blob/main/README.md
+     https://github.com/EdenKhaos/16-Portfolio2/blob/main/README.md
 
-```
+
 ## Additional Links
 
 LinkedIn:
