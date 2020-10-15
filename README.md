@@ -16,13 +16,13 @@ If you are opting out of career services, this is *still a required assignment*.
 ## Links:
 ```
 Live Site: 
-     https://edenkhaos.github.io/16-Portfolio2/
+          https://edenkhaos.github.io/16-Portfolio2/
    
 Code Repo: 
-     https://github.com/EdenKhaos/16-Portfolio2
+          https://github.com/EdenKhaos/16-Portfolio2
   
 README:
-     https://github.com/EdenKhaos/16-Portfolio2/blob/main/README.md
+          https://github.com/EdenKhaos/16-Portfolio2/blob/main/README.md
 
 ```
 ## Additional Links
@@ -34,7 +34,7 @@ LinkedIn:
 ![link]()
 
 ## Screenshot;
-![home]()
+![home](https://github.com/EdenKhaos/16-Portfolio2/blob/main/assets/images/screenshot.JPG)
 
 ## Follow pseudo code in html file (index.html)
 I used a free template from w3-schools and their library to create this more uniform portfolio page. This time I only need 1 portfolio page with links 
