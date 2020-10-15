@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<title>Heather Cooper || Portfolio 2.0 </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Montserrat", sans-serif
+  }
+  .w3-row-padding img {
+    margin-bottom: 12px
+  }
+  .bgimg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./assets/images/profile2.jpg');
+    min-height: 100%;
+  }
+  /* The overlay effect (full height and width) - lays on top of the container and over the image */
+  .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: lightgray;
+}
+/* Make the image to responsive */
+.image {
+  width: 100%;
+  height: auto;
+}
+/* When you mouse over the container, fade in the overlay icon*/
+.container:hover .overlay {
+  opacity: 1;
+}
+/* The icon inside the overlay is positioned in the middle vertically and horizontally -github icon*/
+.social-image1 {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  margin-left: -15%;
+  float: left:
+}
+/* The icon inside the overlay is positioned in the middle vertically and horizontally -laptop icon */
+.social-image2 {
+  color: white;
+  font-size: 100px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  margin-right: 65%;
+  float: right;
+}  
+/* When you move the mouse over the icon, change color */
+.social-image1:hover {
+  color: rgb(77, 76, 76);
+}
+/* When you move the mouse over the icon, change color */
+.social-image2:hover {
+  color: rgb(77, 76, 76) !important;
+}
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+</style>
+
+<body>
+
+  <!-- Sidebar with image -->
+  <nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+    <div class="bgimg"></div>
+  </nav>
+
+  <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+  <nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2"
+    id="mySidebar">
+    <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright"
+      style="padding:0 12px;">
+      <i class="fa fa-remove"></i>
+    </a>
+    <div class="w3-bar-block w3-center">
+      <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+      <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+      <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="w3-main w3-padding-large" style="margin-left:40%">
+
+    <!-- Menu icon to open sidebar -->
+    <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;"
+      onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+    <!-- Header -->
+    <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+      <h1 class="w3-jumbo"><b>Heather Cooper</b></h1>
+      <p>Full-Stack Web Developer and Architectural Designer</p>
+      <img src="./assets/images/profile2.jpg" class="w3-image w3-hide-large w3-hide-small w3-round"
+        style="display:block;width:60%;margin:auto;">
+      <img src="./assets/images/profile2.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000"
+        height="1333">
+    </header>
+
+    <!-- Portfolio Section -->
+    <div class="w3-padding-32 w3-content" id="portfolio">
+      <h2 class="w3-text-grey">My Portfolio</h2>
+      <hr class="w3-opacity">
+
+      <!-- Grid for photos -->
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half">
+          <div class="container">  
+            <img src="./assets/images/trails.JPG" alt="Project-Pic" class="image">
+            <div class="overlay">
+              <a href="https://github.com/pprewitt/TrailsApp" class="social-image1" title="View Source ">
+                <i class="fa fa-github"></i>
+              </a>
+              <a href="https://pprewitt.github.io/TrailsApp/" class="social-image2" title="View Online">
+                <i class="fa fa-laptop"></i>
+              </a>
+            </div>
+          </div>
+          <div class="container"> 
+            <img src="./assets/images/html.JPG" alt="Project-Pic" class="image">
+            <div class="overlay">
+              <a href="https://github.com/EdenKhaos/08-professional-materials" class="social-image1" title="View Source ">
+                <i class="fa fa-github"></i>
+              </a>
+              <a href="https://edenkhaos.github.io/08-professional-materials/" class="social-image2" title="View Online">
+                <i class="fa fa-laptop"></i>
+              </a>
+            </div>
+          </div>
+          <div class="container"> 
+            <img src="./assets/images/scheduler.JPG" alt="Project-Pic" class="image">
+            <div class="overlay">
+              <a href="https://github.com/EdenKhaos/05-work-day-scheduler" class="social-image1" title="View Source ">
+                <i class="fa fa-github"></i>
+              </a>
+              <a href="https://edenkhaos.github.io/05-work-day-scheduler/" class="social-image2" title="View Online">
+                <i class="fa fa-laptop"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="w3-half">
+          <div class="container">  
+            <img src="./assets/images/book.JPG" alt="Project-Pic" class="image">
+            <div class="overlay">
+              <a href="https://github.com/EdenKhaos/Book-Finder" class="social-image1" title="View Source ">
+                <i class="fa fa-github"></i>
+              </a>
+              <a href="https://book-worms-book-finder.herokuapp.com/" class="social-image2" title="View Online">
+                <i class="fa fa-laptop"></i>
+              </a>
+            </div>
+          </div>
+          <div class="container"> 
+            <img src="./assets/images/weather.JPG" alt="Project-Pic" class="image">
+            <div class="overlay">
+              <a href="https://github.com/EdenKhaos/06-weather_dashboard" class="social-image1" title="View Source ">
+                <i class="fa fa-github"></i>
+              </a>
+              <a href="https://edenkhaos.github.io/06-weather_dashboard/" class="social-image2" title="View Online">
+                <i class="fa fa-laptop"></i>
+              </a>
+            </div>
+          </div>
+          <div class="container"> 
+            <img src="./assets/images/myteam.JPG" alt="Project-Pic" class="image">
+            <div class="overlay">
+              <a href="https://github.com/EdenKhaos/10-OOP" class="social-image1" title="View Source ">
+                <i class="fa fa-github"></i>
+              </a>
+              <a href="https://www.youtube.com/watch?v=b7spFsBBr3o&t=1s" class="social-image2" title="View Online">
+                <i class="fa fa-laptop"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- End photo grid -->
+      </div>
+      <!-- End Portfolio Section -->
+    </div>
+
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+      <h2>About</h2>
+      <hr class="w3-opacity">
+      <p>My name is Heather, and my background is in building architecture and interior design. However, I love working
+        with graphics and am a self-taught graphic designer and amateur photographer. I also love video games and the
+        design that goes into them and hope to one day be programing and modeling the environment of games. Through
+        video games, I enjoy cinematography and the music that is part of the movies and games in which I've avidly
+        followed for
+        years.</p>
+      <p>Recently I've decided to pursue full-stack web development. With this new skill set of coding, I can combine
+        what I have learned through the years of architecture and merge the new technical skills of both front-end and
+        back-end of web development. Web development has many overlaps for problem-solving, critical thinking and
+        working in team environments. I hope to one day work on projects that bring challenging
+        yet fun components of creating interesting applications, designs, or overall better functionality for an user.
+      </p>
+      <h3 class="w3-padding-16">My Skills</h3>
+      <p class="w3-wide">Building Architecture</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:95%">95%</div>
+      </div>
+      <p class="w3-wide">Various Design</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
+      </div>
+      <p class="w3-wide">Full-Stack Web Developer</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:50%">50%</div>
+      </div><br>
+
+
+      <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">6+</span><br>
+          Project Management
+        </div>
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">20+</span><br>
+          Projects Completed
+        </div>
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">10+</span><br>
+          Marketing
+        </div>
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">150+</span><br>
+          Meetings
+        </div>
+      </div>
+
+      <button class="w3-button w3-light-grey w3-padding-large w3-section">
+        <a href="#"></a><i class="fa fa-download"></i> View Resume
+      </button>
+
+      <!-- Testimonials -->
+      <h3 class="w3-padding-24">My Reputation</h3>
+      <img src="./assets/images/alice.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+      <p><span class="w3-large w3-text-black w3-margin-right">Alice Santman</span> BIM Manager</p>
+      <p>"Heather's ability to learn quickly and remain flexible to the demands of project schedules has proven to be a
+        great asset to project teams."</p><br>
+
+      <img src="./assets/images/marg.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+      <p><span class="w3-large w3-text-black w3-margin-right">Marjorie Marcellus</span> The Art Institute of Portland
+        Faculty</p>
+      <p>"Heather's confidence, drive, rigorous work ethic, and desire to learn more about architecture and interior
+        design are admirable."</p><br>
+
+      <img src="./assets/images/carlos.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+      <p><span class="w3-large w3-text-black w3-margin-right">Carlos A. Murrieta</span> Principal at Merge
+        Architectural Group LLC</p>
+      <p>"As years have gone by since 2013, Heather has managed to be part of other multicultural events
+        including a recent visit to Japan, and her participation in a design competition in Rome Italy."</p><br>
+
+
+      <!-- End About Section -->
+    </div>
+
+    <!-- Contact Section -->
+    <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+      <h2>Contact Me</h2>
+      <hr class="w3-opacity">
+
+      <div class="w3-section">
+        <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Denver, CO, USA</p>
+        <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +01 480 789 3335</p>
+        <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: heatherc.design@gmail.com</p>
+        <p><i class="fa fa-github fa-fw w3-xxlarge w3-margin-right"> </i><a
+            href="https://github.com/EdenKhaos">EdenKhaos</a></p>
+        </p>
+        <p><i class="fa fa-linkedin fa-fw w3-xxlarge w3-margin-right"> </i><a
+            href="https://www.linkedin.com/in/ravendantes/">https://www.linkedin.com/in</a></p>
+      </div>
+
+      <!-- Image of location/map -->
+      <img src="./assets/images/denver5.jpg" class="w3-image w3-greyscale" style="width:100%;margin:32px 0">
+
+      <p>Lets get in touch. Send me a message:</p>
+      <form action="mailto: raven.dantes@ymail.com" method="post" enctype="text/plain">
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject">
+        </p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message">
+        </p>
+        <p>
+          <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </p>
+      </form>
+      <!-- End Contact Section -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+      <i class="fa fa-gitlab w3-hover-opacity"></i>
+      <i class="fa fa-github w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+      <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"
+          class="w3-hover-text-green">w3.css</a></p>
+      <!-- End footer -->
+    </footer>
+
+    <!-- END PAGE CONTENT -->
+  </div>
+
+  <script>
+    // Open and close sidebar
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "60%";
+      document.getElementById("mySidebar").style.display = "block";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+  </script>
+
+</body>
+
+</html>
