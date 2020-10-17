@@ -31,13 +31,13 @@ LinkedIn:
     https://www.linkedin.com/in/ravendantes/
 
 ## Resume Link: 
-![link]()
+![link](https://drive.google.com/file/d/1_PPCD79WoTThKe_K5aL6GPwk97wzwSBU/view?usp=sharing)
 
 ## Screenshot;
 ![home](https://github.com/EdenKhaos/16-Portfolio2/blob/main/assets/images/screenshot.JPG)
 
 ## Follow pseudo code in html file (index.html)
-I used a free template from w3-schools and their library to create this more uniform portfolio page. This time I only need 1 portfolio page with links 
+I used a free template from w3-schools and their library to create this more uniform contemporary portfolio page. This time I only need one portfolio page with links to projects. 
 
 1. Used initial w3-schools black and white template
 2. Created styling within the HTML file
