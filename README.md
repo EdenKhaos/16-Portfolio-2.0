@@ -31,7 +31,7 @@ LinkedIn:
     https://www.linkedin.com/in/ravendantes/
 
 ## Resume Link: 
-![link](https://drive.google.com/file/d/1_PPCD79WoTThKe_K5aL6GPwk97wzwSBU/view?usp=sharing)
+[Resume](https://drive.google.com/file/d/1_PPCD79WoTThKe_K5aL6GPwk97wzwSBU/view?usp=sharing)
 
 ## Screenshot;
 ![home](https://github.com/EdenKhaos/16-Portfolio2/blob/main/assets/images/screenshot.JPG)
